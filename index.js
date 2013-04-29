@@ -1,9 +1,6 @@
 var pull = require('pull-stream')
 
-exports.markable = pull.Through(markable)
-//exports.buffer = buffer
-
-function markable(read) {
+module.exports = pull.Through(function markable(read) {
   var seen = [], marked = false, head = 0, ended
 
   function readable (abort, cb) {
@@ -38,5 +35,4 @@ function markable(read) {
   }
 
   return readable
-}
-
+})
