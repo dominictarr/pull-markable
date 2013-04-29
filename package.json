@@ -8,10 +8,11 @@
     "url": "git://github.com/dominictarr/markable.git"
   },
   "dependencies": {
-    "pull-stream": "~2.15.0",
+    "pull-stream": "~2.15.0"
+  },
+  "devDependencies": {
     "tap": "~0.4.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
