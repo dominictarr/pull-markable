@@ -1,7 +1,7 @@
 {
   "name": "pull-markable",
   "description": "a pull-stream that can read ahead and then revert",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/markable",
   "repository": {
     "type": "git",
